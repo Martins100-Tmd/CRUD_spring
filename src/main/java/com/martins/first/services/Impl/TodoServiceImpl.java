@@ -5,9 +5,9 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Service;
 
-import com.martins.first.Error.ResourceNotFoundException;
 import com.martins.first.dto.TodoDto;
 import com.martins.first.entity.Todo;
+import com.martins.first.error.ResourceNotFoundException;
 import com.martins.first.mapper.TodoMapper;
 import com.martins.first.repository.TodoRepository;
 import com.martins.first.services.TodoService;
