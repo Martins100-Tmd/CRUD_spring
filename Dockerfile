@@ -1,5 +1,5 @@
-# Use Java runtime
-FROM openjdk:21-jdk-slim
+# Use Eclipse Temurin (official replacement for OpenJDK)
+FROM eclipse-temurin:21-jdk-slim
 
 # Set working directory
 WORKDIR /app
